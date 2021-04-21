@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #B8BFE1;
+	max-height: 100%;
+}
+.container{
+	max-width: 900px;
+	max-height: 100%;
+	margin: 0 auto;
+	background-color: skyblue;
+}
+/*header start*/
+.header-first{
+	line-height: 70px;
+	height: 80px;
+	width: 900px;
+	background-color: #405DF3;
+}
+.header-last{
+	line-height: 55px;
+	height: 60px;
+	width: 900px;
+	background-color: blue;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.header-last a{
+	text-decoration: none;
+	color: white;
+	padding:10px;
+}
+.header-last a:hover{
+	color: #0DE8EA;
+	text-decoration: underline;
+}
+/*header end*/
+hr{
+	border: solid black 2px;
+	border-bottom: none;
+}
+/*main start*/
+.clear-div{
+	clear: both;
+}
+.content{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 900px;
+	height: 300px;
+	background-color: #0A173D;
+}
+.left{
+	height: 300px;
+	width: 33%;
+	float: left;
+	background-color: #95F3BC;
+}
+.middle{
+	height: 300px;
+	width: 34%;
+	float: left;
+	background-color: #21DDBC;
+}
+.right{
+	height: 300px;
+	width: 33%;
+	float: right;
+	background-color: #5A7BDC;
+}
+.content a{
+	margin-left: 75px;
+	text-align: center;
+	text-decoration: none;
+}
+.content a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.user-img{
+	margin-top: 90px;
+	margin-left: 90px;
+	height: 100px;
+	width: 120px;
+	float: left;
+}
+.trainer-img{
+	margin-top: 90px;
+	margin-left: 90px;
+	border-radius: 20px;
+	height: 100px;
+	width: 120px;
+	float: left;
+}
+.equipment-img{
+	margin-top: 90px;
+	margin-left: 90px;
+	border-radius: 20px;
+	height: 100px;
+	width: 120px;
+	float: left;
+}
+/*main end*/
+/*footer start*/
+.footer{
+	margin-top: 10px;
+	height: 20px;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+}
+.footer p{
+	color: white;
+
+}
+/*footer end*/
+
+.container-index{
+	max-width: 400px;
+    height: 500px;
+	margin: 50px 40px;
+}
+.first{
+	height: 250px;
+	width: 400px;
+}
+.last{
+	height: 250px;
+	width: 400px;
+	background-color: white;
+}
+.card-img-top{
+	height: 100%;
+	width: 100%;
+}
+.button{
+	background-color: #2B74CE;
+	color: white;
+}
+.button:hover{
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+/*table start*/
+.content-table{
+	border-collapse: collapse;
+	margin: 10px 0;
+	width: 100%;
+	color: #009879;
+	font-family: monospace;
+	font-size: 25px;
+	text-align: left;
+}
+.content-table thead tr{
+	border: 1px solid #009879;
+	border-collapse: collapse;
+		background-color: #009879;
+		color: white;
+		text-align: left;
+		font-weight: bold;
+}
+.content-table tbody tr{
+	border: 1px solid #009879;
+	border-collapse: collapse;
+	background-color: #fff;
+}
+.content-table tbody tr:last-of-type{
+	border-bottom: 4px solid #009879;
+}
+/*table end*/
+/*search start*/
+.search-part{
+	text-align: center;
+	margin-top: 10px;
+}
+.srcfield{
+	width: 35%;
+	padding: 5px;
+	font-size: 20px;
+}
+.srcbtn{
+	width: 15%;
+	padding: 5px;
+	font-size: 20px;
+	background-color: #333399;
+	color: white;
+}
+/*search end*/
+.table-part{
+	width: 900px;
+	text-align: center;
+}
+.main{
+	width: 900px;
+	background-color: #16AAA65;
+}
